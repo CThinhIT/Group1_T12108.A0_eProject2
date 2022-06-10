@@ -2,6 +2,16 @@
 
 ## About Website
 
-Project semester 2 - FPT Aptech Teach used: PHP - Laravel - HTML/CSS/JS - AJAX - Bootstrap - Google Map Platform APis
+Project semester 2 - FPT Aptech Teach used: PHP - Laravel - HTML/CSS/JS - AJAX - Bootstrap - Google Map Platform APis.
 <br>
-Gaming gear is website that sold equibment about technology make the user's gaming experience better
+Gaming gear is website that sold equibment about technology make the user's gaming experience better.
+
+## About Team
+
+Team members include:
+<br>
+1.Nguyen Tran Trong - Student1328431 - Leader
+2.Tran Cong Thinh - Student1331708 - Dev
+3.Huynh Ngoc Thai - Student1317113 - Dev
+4.Nguyen Le Thuan - Student1322490 - Dev
+5.Ngo Hanh Dung - Student1328426 - Dev

@@ -11,7 +11,11 @@ Gaming gear is website that sold equibment about technology make the user's gami
 Team members include:
 <br>
 1.Nguyen Tran Trong - Student1328431 - Leader
+<br>
 2.Tran Cong Thinh - Student1331708 - Dev
+<br>
 3.Huynh Ngoc Thai - Student1317113 - Dev
+<br>
 4.Nguyen Le Thuan - Student1322490 - Dev
+<br>
 5.Ngo Hanh Dung - Student1328426 - Dev

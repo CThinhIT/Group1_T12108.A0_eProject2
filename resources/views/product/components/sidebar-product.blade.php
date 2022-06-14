@@ -87,13 +87,13 @@
 
             </ul>
 
-            <div>
+            {{-- <div>
                 <img class="img-fluid w-100" src="{{asset('assets/images/img/poster1.png')}}" alt="">
             </div>
 
             <div>
                 <img class="img-fluid w-100" src="{{asset('assets/images/img/poster1.png')}}" alt="">
-            </div>
+            </div> --}}
 
             <div class="sidebar_social">
                 <li>

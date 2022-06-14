@@ -21,3 +21,6 @@ Route::get('/category-1', [HomeController::class, 'category1'])->name('category-
 
 Route::get('/product-details', [HomeController::class, 'productdetails'])->name('product-details');
    
+Route::get('/login', [HomeController::class, 'login'])->name('login');
+
+Route::get('/register', [HomeController::class, 'register'])->name('register');

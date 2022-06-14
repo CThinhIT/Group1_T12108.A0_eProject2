@@ -10,7 +10,11 @@ class HomeController extends Controller
         return view ('home.home');
     }
 
-    public function test(){
-        return view ('test');
+    public function category1(){
+        return view ('category1.category-1');
+    }
+
+    public function productdetails(){
+        return view ('product.product-details');
     }
 }

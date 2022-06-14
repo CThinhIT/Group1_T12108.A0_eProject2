@@ -14,8 +14,10 @@ use  App\Http\Controllers\HomeController;
 |
 */
 
+
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('/test', [HomeController::class, 'test'])->name('test');
+Route::get('/category-1', [HomeController::class, 'category1'])->name('category-1');
 
+Route::get('/product-details', [HomeController::class, 'productdetails'])->name('product-details');
    

@@ -2,7 +2,7 @@
 
 
 @section('title')
-<title>Trang chủ.</title>
+<title>Trang chủ</title>
 @endsection
 
 @section('content')

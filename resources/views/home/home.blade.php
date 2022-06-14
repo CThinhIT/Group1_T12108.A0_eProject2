@@ -7,8 +7,8 @@
 
 @section('content')
 
-@section('out-product-css')
-<link rel="stylesheet" href="{{asset('eshoper/home/out-product.css')}}">
+@section('home-sidebar-css')
+<link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
 @endsection
 
 
@@ -17,79 +17,28 @@
 {{-- <div class="container-fluid mb-5"> --}}
     <div class="row border-top px-xl-5">
 
-
         {{-- ==================SIDEBAR=========================== --}}
         @include('components.sidebar')
         {{-- ==================SIDEBAR=========================== --}}
 
-         {{-- ====================================HEADER============================================================ --}}
+        {{-- ====================================HEADER============================================================ --}}
         <div class="col-lg-9">
-            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                <a href="" class="text-decoration-none d-block d-lg-none">
-                    <h1 class="m-0 display-5 font-weight-semi-bold"><span
-                            class="text-primary font-weight-bold border px-3 mr-1">E</span>Shopper</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    {{-- <div class="navbar-nav mr-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="shop.html" class="nav-item nav-link">Shop</a>
-                        <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="cart.html" class="dropdown-item">Shopping Cart</a>
-                                <a href="checkout.html" class="dropdown-item">Checkout</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div> --}}
-                    <div class="nav-formsearch" style="">
-                        <form action="">
-                            <div class="input-group">
-                                <input type="text" class="form-control nav-formsearch-control"
-                                    placeholder="Search for products" style="color: aliceblue">
-                                <div class="input-group-append">
-                                    <span class="input-group-text bg-transparent text-primary">
-                                        <i class="fa fa-search"></i>
-                                    </span>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+            @include('components.header')
 
-                    {{-- 9476 --}}
-                    <div class="navbar-nav ml-auto py-0" style="padding-left: 400px">
-                        <a href="" class="nav-item nav-link" style="border: none; padding-left:10px; padding-right: 10px ">Login</a>
-                        <a href="" class="nav-item nav-link " style="border: none; padding-left:10px; padding-right: 10px">Register</a>
-                    </div>
-                    {{-- 9476 --}}
+            {{--
+            ====================================HEADER============================================================--}}
 
-                    <div class="navbar-nav ml-auto py-0" >
-
-                        <a href="" class="btn ">
-                            {{-- <i class="fas fa-heart text-primary"></i> --}}
-                            <i class="fas fa-bell text-primary"></i>
-                            <span class="badge"><sup style="font-size: 15px;color: #8d62d2;">0</sup></span>
-                        </a>
-                        <a href="" class="btn ">
-                            <i class="fas fa-shopping-cart text-primary"></i>
-                            <span class="badge"><sup style="font-size: 15px; color: #8d62d2;">0</sup></span>
-                        </a>
-                    </div>
-
-                </div>
-            </nav>
-
-            {{-- ====================================HEADER============================================================ --}}
-
-            {{-- ==================================CAROUSEL============================================================= --}}
+            {{--
+            ===================================CAROUSEL===========================================================--}}
             <div id="header-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#header-carousel" data-slide-to="1"></li>
+                    {{-- <li data-target="#header-carousel" data-slide-to="2"></li> --}}
+                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active" style="height: 410px;">
-                        <img class="img-fluid" src="{{asset('eshoper/img/carousel-1.jpg')}}" alt="Image">
+                        <img class="img-fluid" src="{{asset('assets/images/img/carousel-1.jpg')}}" alt="Image">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order
@@ -100,7 +49,7 @@
                         </div>
                     </div>
                     <div class="carousel-item" style="height: 410px;">
-                        <img class="img-fluid" src="{{asset('eshoper/img/carousel-2.jpg')}}" alt="Image">
+                        <img class="img-fluid" src="{{asset('assets/images/img/carousel-2.jpg')}}" alt="Image">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order
@@ -122,9 +71,10 @@
                     </div>
                 </a> --}}
             </div>
-             {{-- ==================================CAROUSEL============================================================= --}}
+            {{--
+            ===================================CAROUSEL=============================================================--}}
 
-            {{--======================================= Menu-home( 9476) --}}
+            {{--===================================Menu-home(9476)====================================================== --}}
 
             <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -145,64 +95,26 @@
                 </div>
             </nav>
 
-            {{--=========================================== Menu-home============================================================================= --}}
+            {{--===========================================Menu-home===================================================--}}
 
 
 
-            {{-- ========================================== List-Top============================================================================= --}}
+            {{--==========================================List-Top======================================================--}}
             <div class="row px-xl-5 pb-3">
                 <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                     <div class="card product-item border-0 mb-4">
                         <div
                             class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad.png')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad.png')}}" alt="">
                             <div class="text-center">
                                 <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                {{-- <h6 class="text-truncate mb-3"><i class='bx bx-plus-circle'></i>Add to cart</h6> --}}
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
-                                   
-                            </div>
-                        </div>
-                        {{-- <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                            <h6 class="text-truncate mb-3">JBL One</h6>
-                            <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
-                            <h6 class="text-truncate mb-3">19.50$</h6>
-                            <h6 class="text-truncate mb-3">Add to cart</h6>
-                        </div> --}}
-                        {{-- <div class="card-footer d-flex justify-content-between bg-light border">
-                            <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View
-                                Detail</a>
-                            <a href="" class="btn btn-sm text-dark p-0"><i
-                                    class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                        </div> --}}
-                    </div>
-                </div>
+                                {{-- <h6 class="text-truncate mb-3"><i class='bx bx-plus-circle'></i>Add to cart</h6>
+                                --}}
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                    <div class="card product-item border-0 mb-4">
-                        <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad1.png')}}" alt="">
-                            <div class="text-center">
-                                <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
-                                <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
-                                <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                    <div class="card product-item border-0 mb-4">
-                        <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad.png')}}" alt="">
-                            <div class="text-center">
-                                <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
-                                <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
-                                <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
                             </div>
                         </div>
                     </div>
@@ -212,12 +124,13 @@
                     <div class="card product-item border-0 mb-4">
                         <div
                             class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad.png')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad1.png')}}" alt="">
                             <div class="text-center">
                                 <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
                             </div>
                         </div>
                     </div>
@@ -227,12 +140,13 @@
                     <div class="card product-item border-0 mb-4">
                         <div
                             class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad.png')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad.png')}}" alt="">
                             <div class="text-center">
                                 <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
                             </div>
                         </div>
                     </div>
@@ -242,12 +156,13 @@
                     <div class="card product-item border-0 mb-4">
                         <div
                             class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad.png')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad.png')}}" alt="">
                             <div class="text-center">
                                 <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
                             </div>
                         </div>
                     </div>
@@ -257,12 +172,13 @@
                     <div class="card product-item border-0 mb-4">
                         <div
                             class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad.png')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad.png')}}" alt="">
                             <div class="text-center">
                                 <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
                             </div>
                         </div>
                     </div>
@@ -272,18 +188,51 @@
                     <div class="card product-item border-0 mb-4">
                         <div
                             class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                            <img class="img-fluid w-100" src="{{asset('eshoper/img/gamepad.png')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad.png')}}" alt="">
                             <div class="text-center">
                                 <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                    <div class="card product-item border-0 mb-4">
+                        <div
+                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad.png')}}" alt="">
+                            <div class="text-center">
+                                <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
+                                <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
+                                <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                    <div class="card product-item border-0 mb-4">
+                        <div
+                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad.png')}}" alt="">
+                            <div class="text-center">
+                                <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
+                                <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
+                                <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            {{-- ===========================================LIST_TOP============================================================== --}}
+            {{--===========================================LIST_TOP===========================================================--}}
 
         </div>
     </div>
@@ -330,7 +279,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/img/cat-1.jpg" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Men's dresses</h5>
                 </div>
@@ -339,7 +288,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/img/cat-2.jpg" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Women's dresses</h5>
                 </div>
@@ -348,7 +297,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/img/cat-3.jpg" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Baby's dresses</h5>
                 </div>
@@ -357,7 +306,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/img/cat-4.jpg" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Accerssories</h5>
                 </div>
@@ -366,7 +315,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/cat-5.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/img/cat-5.jpg" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Bags</h5>
                 </div>
@@ -375,7 +324,7 @@
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/cat-6.jpg" alt="">
+                        <img class="img-fluid" src="assets/images/img/cat-6.jpg" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Shoes</h5>
                 </div>
@@ -390,7 +339,7 @@
         <div class="row px-xl-5">
             <div class="col-md-6 pb-4">
                 <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
-                    <img src="img/offer-1.png" alt="">
+                    <img src="assets/images/img/offer-1.png" alt="">
                     <div class="position-relative" style="z-index: 1;">
                         <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Spring Collection</h1>
@@ -400,7 +349,7 @@
             </div>
             <div class="col-md-6 pb-4">
                 <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
-                    <img src="img/offer-2.png" alt="">
+                    <img src="assets/images/img/offer-2.png" alt="">
                     <div class="position-relative" style="z-index: 1;">
                         <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Winter Collection</h1>
@@ -422,7 +371,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-1.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -442,7 +391,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-2.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -462,7 +411,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-3.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -482,7 +431,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-4.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -502,7 +451,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-5.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -522,7 +471,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-6.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -542,7 +491,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-7.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -562,7 +511,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-8.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -617,7 +566,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-1.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -637,7 +586,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-2.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -657,7 +606,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-3.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -677,7 +626,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-4.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -697,7 +646,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-5.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -717,7 +666,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-6.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -737,7 +686,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-7.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -757,7 +706,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                        <img class="img-fluid w-100" src="assets/images/img/product-8.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -778,32 +727,35 @@
     </div> --}}
     <!-- Products End -->
 
-
+    {{-- ==========================================Owl-Carousel========================================================
+    --}}
     <!-- Vendor Start -->
     <div class="container-fluid py-5">
         <div class="row px-xl-5">
             <div class="col">
                 <div class="owl-carousel vendor-carousel">
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('eshoper/img/asus.png')}}" alt="">
+                        <img src="{{asset('assets/images/img/asus.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('eshoper/img/razer.png')}}" alt="">
+                        <img src="{{asset('assets/images/img/razer.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('eshoper/img/sony.png')}}" alt="">
+                        <img src="{{asset('assets/images/img/sony.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('eshoper/img/logitech.png')}}" alt="">
+                        <img src="{{asset('assets/images/img/logitech.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('eshoper/img/msi.png')}}" alt="">
+                        <img src="{{asset('assets/images/img/msi.png')}}" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Vendor End -->
+    {{-- ==========================================Owl-Carousel========================================================
+    --}}
 
 
 
@@ -812,3 +764,4 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
     {{-- @endsection --}}
+    @endsection

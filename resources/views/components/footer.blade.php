@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-2">
                 <div class="container text-start">
-                    <img src={{asset('eshoper/img/sidebar/logo_gamegear1.png')}} alt="">
+                    <img src={{asset('assets/images/img/sidebar/logo_gamegear1.png')}} alt="">
                 </div>
             </div>
             <div class="col-8">

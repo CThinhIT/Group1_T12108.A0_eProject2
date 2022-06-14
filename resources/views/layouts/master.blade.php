@@ -64,6 +64,8 @@
     <!-- Template Javascript -->
     <script src="{{asset('js/main.js')}}"></script>
     @yield('script-sidebar-category')
+    @yield('script-product-details')
+
 </body>
 
 </html>

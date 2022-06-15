@@ -1,4 +1,4 @@
-<div class="col-lg-3 d-none d-lg-block" style="">
+<div class="col-lg-3 d-none d-lg-block">
     <div class="sidebar">
         <div class="logo_content">
             <div class="logo">
@@ -89,41 +89,41 @@
 
             {{-- <div>
                 <img class="img-fluid w-100" src="{{asset('assets/images/img/poster1.png')}}" alt="">
-            </div>
+        </div>
 
-            <div>
-                <img class="img-fluid w-100" src="{{asset('assets/images/img/poster1.png')}}" alt="">
-            </div> --}}
+        <div>
+            <img class="img-fluid w-100" src="{{asset('assets/images/img/poster1.png')}}" alt="">
+        </div> --}}
 
-            <div class="sidebar_social">
-                <li>
-                    <a href="#">
-                        <i class='bx bxl-twitter'></i>
-                    </a>
-                    <!-- <span class="tooltip">Profile</span> -->
-                </li>
-                <li>
-                    <a href="#">
-                        <i class='bx bxl-facebook-square'></i>
+        <div class="sidebar_social">
+            <li>
+                <a href="#">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <!-- <span class="tooltip">Profile</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxl-facebook-square'></i>
 
-                    </a>
-                    <!-- <span class="tooltip">Profile</span> -->
-                </li>
-                <li>
-                    <a href="#">
-                        <i class='bx bxl-instagram'></i>
-                    </a>
-                    <!-- <span class="tooltip">Profile</span> -->
-                </li>
-
-            </div>
-
-            <div style="color: #ffff;" class="sidebar_help">
-                <a href="#"><span class="sidebar_help_contact">Contact</span></a>
-                <a href="#"><span class="sidebar_help_aboutus">About us</span></a>
-            </div>
+                </a>
+                <!-- <span class="tooltip">Profile</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <!-- <span class="tooltip">Profile</span> -->
+            </li>
 
         </div>
+
+        <div style="color: #ffff;" class="sidebar_help">
+            <a href="#"><span class="sidebar_help_contact">Contact</span></a>
+            <a href="#"><span class="sidebar_help_aboutus">About us</span></a>
+        </div>
+
     </div>
+</div>
 
 </div>

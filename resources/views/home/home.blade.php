@@ -735,19 +735,19 @@
             <div class="col">
                 <div class="owl-carousel vendor-carousel">
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('assets/images/img/asus.png')}}" alt="">
+                        <img src="{{asset('assets/images/brand-logo/asus.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('assets/images/img/razer.png')}}" alt="">
+                        <img src="{{asset('assets/images/brand-logo/razer.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('assets/images/img/sony.png')}}" alt="">
+                        <img src="{{asset('assets/images/brand-logo/sony.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('assets/images/img/logitech.png')}}" alt="">
+                        <img src="{{asset('assets/images/brand-logo/logitech.png')}}" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img src="{{asset('assets/images/img/msi.png')}}" alt="">
+                        <img src="{{asset('assets/images/brand-logo/msi.png')}}" alt="">
                     </div>
                 </div>
             </div>

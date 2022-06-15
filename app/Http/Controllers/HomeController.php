@@ -10,8 +10,8 @@ class HomeController extends Controller
         return view ('home.home');
     }
 
-    public function category1(){
-        return view ('category1.category-1');
+    public function category(){
+        return view ('category.category-select-list');
     }
 
     public function productdetails(){

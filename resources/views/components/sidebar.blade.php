@@ -1,4 +1,4 @@
-<div class="col-lg-3 d-none d-lg-block" style="">
+<div class="col-lg-3 d-none d-lg-block" >
     <div class="sidebar">
         <div class="logo_content">
             <div class="logo">
@@ -44,7 +44,7 @@
 
             <ul class="sidebar_nav_list">
                 <li>
-                    <a href="{{url('category-1')}}">
+                    <a href="{{url('category')}}">
                         <i class='bx bx-joystick'></i>
                         <span class="sidebar_link">Gamepads</span>
                     </a>

@@ -53,15 +53,16 @@
                         alt="">
 
                     <div class="product-des">
+                        
+                        <h4  style="font-weight: bold">Original Product</h4>
+                        <h2>RAZER <span>FEEL THE GAME</span></h2>
+                        <h2 class="price">19.50 $</h2>
                         <h4 style="font-weight: bold">Description</h4>
                         <h6>Weight: <span>400g</span></h6>
                         <h6>Display Resolution: <span>960x1080 for each eye</span></h6>
                         <h6>Refresh rate: <span>75Hz, 72Hz, 60Hz</span></h6>
                         <h6>Viewing angle: <span>100 degrees</span></h6>
                         <h6>Interfaces: <span>HDMI 1.4b, USB 2.0, USB Host 2.0</span></h6>
-                        <h4  style="font-weight: bold">Original Product</h4>
-                        <h2>RAZER <span>FEEL THE GAME</span></h2>
-                        <h2 class="price">19.50 $</h2>
                     </div>
 
                     <div class="button-order">

@@ -1,0 +1,8 @@
+.item {
+    background-color: #161616;
+    border-radius: 20px;
+}
+
+.item:hover {
+    border: 1px #9460E9 solid;
+}

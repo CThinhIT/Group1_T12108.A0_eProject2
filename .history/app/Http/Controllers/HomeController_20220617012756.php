@@ -26,6 +26,6 @@ class HomeController extends Controller
         return view ('login.register');
     }
     public function checkout(){
-        return view ('checkout');
+        return view ('');
     }
 }

@@ -25,6 +25,8 @@ Route::get('/login', [HomeController::class, 'login'])->name('login');
 
 Route::get('/register', [HomeController::class, 'register'])->name('register');
 
+
+
 Route::get('/cart', [User_CartController::class, 'cart'])->name('cart');
 
 Route::get('/checkout', [HomeController::class, 'checkout'])->name('checkout');

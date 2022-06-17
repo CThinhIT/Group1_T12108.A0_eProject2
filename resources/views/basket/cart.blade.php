@@ -29,12 +29,63 @@
                 <div class="col-2">dasdas</div>
                 <div class="col-2">dasda</div>
             </div>
-            <div class="row">
+            <div class="row item">
+                <div class="col-2"><img src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-blue.png')}}" alt="" width="100" height="100"></div>
+                <div class="col-3">dasda</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasda</div>
+            </div>
+            <div class="row item">
                 <div class="col-2"><img src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadMain/xbox-black.png')}}" alt="" width="100" height="100"></div>
                 <div class="col-3">dasda</div>
                 <div class="col-2">dasdas</div>
                 <div class="col-2">dasdas</div>
                 <div class="col-2">dasda</div>
+            </div>
+            <div class="row item">
+                <div class="col-2"><img src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadMain/xbox-black.png')}}" alt="" width="100" height="100"></div>
+                <div class="col-3">dasda</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasda</div>
+            </div>
+            <div class="row item">
+                <div class="col-2"><img src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadMain/xbox-black.png')}}" alt="" width="100" height="100"></div>
+                <div class="col-3">dasda</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasda</div>
+            </div>
+            <div class="row item">
+                <div class="col-2"><img src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadMain/xbox-black.png')}}" alt="" width="100" height="100"></div>
+                <div class="col-3">dasda</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasda</div>
+            </div>
+            <div class="row item">
+                <div class="col-2"><img src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadMain/xbox-black.png')}}" alt="" width="100" height="100"></div>
+                <div class="col-3">dasda</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasda</div>
+            </div>
+            <div class="row item">
+                <div class="col-2"><img src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadMain/xbox-black.png')}}" alt="" width="100" height="100"></div>
+                <div class="col-3">dasda</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasdas</div>
+                <div class="col-2">dasda</div>
+            </div>
+        </div>
+        <div class="btn-context">
+            <div class="row">
+                <div class="col-3">
+                    <button class="btn btn-dark">Back to shopping</button>
+                </div>
+                <div class="col-6"></div>
+                <div class="col-3">Subtotal: <span>$9999</span></div>
             </div>
         </div>
     </div>

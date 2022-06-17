@@ -49,7 +49,7 @@
 
 
         </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="text-center p-3" style="background-color: rgb(22 22 22)">
             © 2022 Copyright: Developed by group 1, class T1.2108.A0
         </div>
         <!-- Copyright -->

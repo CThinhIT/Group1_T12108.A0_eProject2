@@ -11,18 +11,19 @@
 </head>
 <style>
   .body{
-    background-image: url({{asset('assets/images/backgrounds/background_login.jpg')}});
+    /* background-image: url({{asset('assets/images/backgrounds/background_login.jpg')}});
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: black
   }
   .card{
-    background-color:rgba(143, 140, 140, 0.5);
+    background-color:rgba(163, 157, 157, 0.5);
   }
   .narbar{
     background-color:rgba(158, 108, 158, 0.5);
   }
   .navbar-nav{
-    margin-left: 55rem;
+    margin-left: 49rem;
   }
   .card-check{
     background-color: rgb(109, 108, 108);
@@ -36,15 +37,15 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a href="#" class="navbar-brand"><img src="{{ass}}" alt=""></a>
+            <a href="#" class="navbar-brand"><img src="{{asset('assets/images/img/sidebar/logo_gamegear1.png')}}" alt="" style="width:100px"></a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav">
-                  <a href="#" class="nav-item nav-link"><i class="fas fa-user-alt"></i></a>
-                  <a href="#" class="nav-item nav-link active"><i class="fas fa-bell"></i></a>
-                  <a href="#" class="nav-item nav-link"><i class="fa fa-sign-in"></i></a>
+                  <a href="#" class="nav-item nav-link" style="margin-right:30px"><i class="fas fa-user-alt"></i></a>
+                  <a href="#" class="nav-item nav-link active" style="margin-right:30px"><i class="fas fa-bell"></i></a>
+                  <a href="#" class="nav-item nav-link" style="margin-right:30px"><i class="fa fa-sign-in"></i></a>
                 </div>
             </div>
         </div>
@@ -112,7 +113,7 @@
                           <div class="d-flex flex-row align-items-center">
                             <div>
                               <img
-                                src="../image/m330-black-gallery-1.webp"
+                                src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-black.png')}}"
                                 class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
                             </div>
                             <div class="ms-3">
@@ -139,7 +140,7 @@
                           <div class="d-flex flex-row align-items-center">
                             <div>
                               <img
-                                src="../image/m350-blue-grey-gallery-01.webp"
+                                src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-black.png')}}"
                                 class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
                             </div>
                             <div class="ms-3">
@@ -166,7 +167,7 @@
                           <div class="d-flex flex-row align-items-center">
                             <div>
                               <img
-                                src="../image/m590-gallery-graphite-1.webp"
+                                src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-black.png')}}"
                                 class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
                             </div>
                             <div class="ms-3">
@@ -275,5 +276,62 @@
       </div>
     </div>
   </div>
+  <div class="footer">
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <!-- Grid container -->
+        <div class="row">
+            <div class="col-2">
+                <div class="container text-start">
+                    <img src={{asset('assets/images/img/sidebar/logo_gamegear1.png')}} alt="">
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="container p-4 text-center" style="padding-top: 10px">
+                    <!-- Section: Social media -->
+                    <section class="mb-4">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="mailto:congthinh.0311@gmail.com" role="button"><i class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                        <!-- Github -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+                    </section>
+                    <!-- Section: Social media -->
+
+                    <!-- Section: Form -->
+
+                    <!-- Section: Form -->
+
+                    <!-- Section: Text -->
+                    <section class="mb-4">
+                        <p>Hotline: 210.820.03</p>
+                        <p>Address: 590 CMT8, Ward 11, District 3, Ho Chi Minh City.</p>
+                    </section>
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+
+            </div>
+            <div class="col-2"></div>
+
+
+        </div>
+        <div class="text-center p-3" style="background-color: rgb(22 22 22)">
+            © 2022 Copyright: Developed by group 1, class T1.2108.A0
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+<!-- Footer End -->
 </body>
 </html>

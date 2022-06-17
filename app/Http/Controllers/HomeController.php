@@ -25,7 +25,4 @@ class HomeController extends Controller
     public function register(){
         return view ('login.register');
     }
-    public function checkout(){
-        return view ('checkout');
-    }
 }

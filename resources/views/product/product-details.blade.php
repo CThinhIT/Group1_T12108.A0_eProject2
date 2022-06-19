@@ -76,33 +76,45 @@
                     </div>
                 </div>
 
+
                 <div class="col-lg-3 select-color">
-                    <div class="select-color1">
+                    <div class="select-color1 color active" color="black" primary="black" style="cursor: pointer">
                         <div
-                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0 ">
+                            <img class="img-fluid w-100"
+                                src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-black.png')}}"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="select-color2 color " color="white" primary="white" style="cursor: pointer">
+                        <div
+                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0 ">
                             <img class="img-fluid w-100"
                                 src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-while.png')}}"
                                 alt="">
                         </div>
                     </div>
-                    <div class="select-color2">
+                    <div class="select-color3 color" color="pink" primary="pink" style="cursor: pointer">
                         <div
-                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0 ">
                             <img class="img-fluid w-100"
                                 src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-pink.png')}}"
                                 alt="">
                         </div>
                     </div>
-                    <div class="select-color3">
+                    <div class="select-color4 color" color="blue" primary="blue" style="cursor: pointer">
                         <div
-                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0 ">
                             <img class="img-fluid w-100"
                                 src="{{asset('assets/images/product-img/gamePad/gamePad1/gamePadDetail/xbox-blue.png')}}"
                                 alt="">
                         </div>
                     </div>
 
-                    <div class="color-container">
+        
+
+                    {{-- <div class="color-container">
                         <h3>Color</h3>
                         <div class="colors">
                             <span class="color active" color="black" primary="black"></span>
@@ -110,7 +122,7 @@
                             <span class="color" color="pink" primary="pink"></span>
                             <span class="color" color="blue" primary="blue"></span>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>

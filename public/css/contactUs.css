@@ -1,0 +1,59 @@
+.bodyCont{
+    background:  linear-gradient(to right, #23074d, #cc5333);
+}
+.video{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+#myVideo{
+    position: relative;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+    height: 830px;
+}
+.textBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.subPrimary{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.headingMain{
+    font-size: 31px;
+    letter-spacing: 4px;
+    display: block;
+    text-shadow: 2px 2px 0px black;
+}
+.subVideo{
+    font-size: 14px;
+    letter-spacing: 3px;
+    display: block;
+    text-shadow: 2px 2px 0px black;
+}
+.add-info{
+    color: white;
+    font-weight: bold; 
+    margin-top: 20px;
+}
+.yourFb{
+    margin-top: 40px;
+}
+.comment{
+    width: 600px;
+    height: 200px;
+}
+.sendContact{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.commentContact{
+    text-align: center;
+}

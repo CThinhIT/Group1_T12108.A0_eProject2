@@ -24,3 +24,5 @@ Route::get('/product-details', [HomeController::class, 'productdetails'])->name(
 Route::get('/login', [HomeController::class, 'login'])->name('login');
 
 Route::get('/register', [HomeController::class, 'register'])->name('register');
+
+Route::get('/contactUs', [HomeController::class, 'contactUs'])->name('contactUs');

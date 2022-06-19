@@ -25,4 +25,9 @@ class HomeController extends Controller
     public function register(){
         return view ('login.register');
     }
+
+    public function contactUS(){
+        return view ('contactUs.contactUs');
+    }
+
 }

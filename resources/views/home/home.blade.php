@@ -117,7 +117,7 @@
                                         <i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
 
                             </div>
@@ -138,7 +138,7 @@
                                             class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
                                             class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                             class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
                             </div>
                         </div>
@@ -198,7 +198,7 @@
                                             class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                                             class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
                             </div>
                         </div>
@@ -238,7 +238,7 @@
                                             class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
                             </div>
                         </div>
@@ -258,7 +258,7 @@
                                             class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
                                     <button style="margin-left: 15px"
                                         class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
-                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
                                 </h4>
                             </div>
                         </div>

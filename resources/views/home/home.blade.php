@@ -74,7 +74,8 @@
             {{--
             ===================================CAROUSEL=============================================================--}}
 
-            {{--===================================Menu-home(9476)====================================================== --}}
+            {{--===================================Menu-home(9476)======================================================
+            --}}
 
             <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -112,8 +113,12 @@
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 {{-- <h6 class="text-truncate mb-3"><i class='bx bx-plus-circle'></i>Add to cart</h6>
                                 --}}
-                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
 
                             </div>
                         </div>
@@ -130,7 +135,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -146,7 +155,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -162,7 +175,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -178,7 +195,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -194,7 +215,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -210,7 +235,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -226,7 +255,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Favorite</button>
+                                </h4>
                             </div>
                         </div>
                     </div>

@@ -56,7 +56,7 @@
                         
                         <h4  style="font-weight: bold">Original Product</h4>
                         <h2>RAZER <span>FEEL THE GAME</span></h2>
-                        <h2 class="price">19.50 $</h2>
+                        <h2 class="price">19.50 $ <span><i style="margin-left: 40px; cursor: pointer;" class='bx bx-heart'></i></span></h2>
                         <h4 style="font-weight: bold">Description</h4>
                         <h6>Weight: <span>400g</span></h6>
                         <h6>Display Resolution: <span>960x1080 for each eye</span></h6>

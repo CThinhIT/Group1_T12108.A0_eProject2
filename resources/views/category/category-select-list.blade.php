@@ -55,7 +55,11 @@
                                 {{-- <h6 class="text-truncate mb-3"><i class='bx bx-plus-circle'></i>Add to cart</h6>
                                 --}}
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
 
                             </div>
                         </div>
@@ -64,14 +68,19 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                     <div class="card product-item border-0 mb-4">
-                        <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <div
+                            class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                             <img class="img-fluid w-100" src="{{asset('assets/images/img/gamepad1.png')}}" alt="">
                             <div class="text-center">
                                 <h4 class="text-truncate mb-3 list-top-title">JBL One</h4>
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -87,7 +96,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -103,7 +116,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -119,7 +136,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -135,7 +156,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -151,7 +176,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -167,7 +196,11 @@
                                 <h6 class="text-truncate mb-3 list-top-brand">Headphones</h6>
                                 <h5 class="text-truncate mb-3 list-top-price">19.50$</h5>
                                 <h4><a href="" class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add"><i
-                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a></h4>
+                                            class="fas fa-shopping-cart  mr-1"></i></i>Add to cart</a>
+                                    <button style="margin-left: 15px"
+                                        class="text-truncate mb-3 btn btn-sm text-light p-0 list-top-add">
+                                        <i class="fas fa-heart  mr-1"></i></i>Wishlist</button>
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -197,6 +230,6 @@
 @endsection
 
 @section('script-sidebar-category')
-    <script src="{{asset('js/price-range.js')}}"></script>
-    
+<script src="{{asset('js/price-range.js')}}"></script>
+
 @endsection

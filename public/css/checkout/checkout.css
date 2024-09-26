@@ -1,0 +1,17 @@
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+img{
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.fas{
+  font-size:25px;
+}
+.fa{
+  font-size:25px;
+}
